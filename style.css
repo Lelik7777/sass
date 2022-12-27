@@ -1,22 +1,21 @@
 body {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Verdana, Generva, Tahoma, sans-serif;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-}
-
-body h1 {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Generva, Tahoma, sans-serif;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+  body h1 {
     font-size: 72px;
-    margin: 0;
-}
-
-body p {
+    margin: 0; }
+  body p {
     font-size: 1.3rem;
-    color: blueviolet;
-}
+    color: blueviolet; }
+    body p .icon-span {
+      width: 40px !important;
+      height: 40px !important;
+      display: inline-block;
+      background-image: url("icon.svg"); }
 
 /*# sourceMappingURL=style.css.map */

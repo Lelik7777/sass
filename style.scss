@@ -2,8 +2,7 @@ $bgcolor: aquamarine;
 body {
   background-color: $bgcolor;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   font-family: Verdana, Generva, Tahoma, sans-serif;
   height: 100vh;
   padding: 0;
@@ -17,5 +16,12 @@ body {
   p {
     font-size: 1.3rem;
     color: blueviolet;
+
+    .icon-span {
+      width: 40px !important;
+      height: 40px !important;
+      display: inline-block;
+      background-image: url('icon.svg');
+    }
   }
 }
